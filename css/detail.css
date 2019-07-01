@@ -1,0 +1,1128 @@
+
+/*Content #############################################
+#######################################################
+#######################################################*/
+.content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000122;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0;
+  animation-name: slideDown;
+  animation-duration: 2s;
+  z-index: 30;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hide{
+	display: none;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding-left: 0px;
+  animation-name: slideup;
+  animation-duration: 2s;
+  margin-bottom: 10px;
+  z-index: 30;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-left: 25vw;
+  width: 50vw;
+  margin-right: 25vw;
+  margin-bottom: 0;
+}
+.hide{
+	display: none;
+}
+
+.bottom div{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	justify-content: center !important;
+  	padding-top: 10px;
+  	cursor: pointer;
+  	background-color: #000a12;
+  	margin-bottom: 15px;
+}
+
+
+.bottom div:first-child{
+  	border-top-left-radius: 15px;
+  	border-bottom-left-radius: 15px;
+
+}
+
+
+.bottom div:last-child{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.bottom div:hover{
+	background-color: #37474f;
+}
+
+.icon_skills{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.icon_detail{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.text_skills{
+	font-size: 1em;
+}
+.text_detail{
+	font-size: 1em;
+}
+.icon_con{
+	margin-left: 17%;
+}
+.icon_proj{
+	margin-left: 5%;
+}
+.icon_cont{
+	margin-left: 9%;
+}
+.ski{
+	margin-left: 5%;
+}
+
+/*Media Queries #######################################
+#######################################################
+#######################################################*/
+
+
+@media screen and (max-width: 960px){
+
+}
+
+@media screen and (max-width: 800px){
+	.bottom{
+		margin-left: 20vw;
+		margin-right: 20vw;
+		width: 60vw;
+	}
+}
+
+@media screen and (max-width: 760px){
+	.bottom{
+		margin-left: 15vw;
+		margin-right: 15vw;
+		width: 70vw;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.bottom{
+		margin-left: 10vw;
+		margin-right: 10vw;
+		width: 80vw;
+	}
+}
+@media screen and (max-width: 500px){
+	.bottom{
+		margin-left: 5vw;
+		margin-right: 5vw;
+		width: 90vw;
+	}
+}
+@media screen and (max-width: 460px){
+	.bottom div{
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 400px){
+	.bottom div{
+		padding: 5px;
+	}
+	.icon_skills{
+		width: 40px;
+		height: 40px;
+	}
+	.icon_detail{
+		width: 40px;
+		height: 40px;
+
+	}
+	.text_skills{
+		font-size: .8em;
+	}
+	.text_detail{
+		font-size: .8em;
+	}
+}
+@media screen and (max-width: 320px){
+	.icon_skills{
+		width: 30px;
+		height: 30px;
+	}
+	.icon_detail{
+		width: 30px;
+		height: 30px;
+
+	}
+	.text_skills{
+		font-size: .7em;
+	}
+	.text_detail{
+		font-size: .7em;
+	}
+}
+
+
+@media screen and (max-width: 460px){
+	.bottom div{
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 400px){
+	.bottom div{
+		padding: 5px;
+	}
+	.icon_skills{
+		width: 40px;
+		height: 40px;
+	}
+	.icon_detail{
+		width: 40px;
+		height: 40px;
+
+	}
+	.text_skills{
+		font-size: .8em;
+	}
+	.text_detail{
+		font-size: .8em;
+	}
+}
+@media screen and (max-width: 320px){
+	.icon_skills{
+		width: 30px;
+		height: 30px;
+	}
+	.icon_detail{
+		width: 30px;
+		height: 30px;
+
+	}
+	.text_skills{
+		font-size: .7em;
+	}
+	.text_detail{
+		font-size: .7em;
+	}
+}
+
+
+
+
+
+
+/*Animation for other page ############################
+#######################################################
+#######################################################*/
+
+.some{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 40;
+	width: 100%;
+	height: 100%;
+}
+
+.first{
+	width: 50%;
+	height: 100%;
+	background-color: blue;
+	float: left;
+	animation-name: slideup;
+	animation-duration: 1s;
+}
+
+
+.second{
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	float: left;
+	animation-name: slideDown;
+	animation-duration: 1s;
+}
+
+
+.showing{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	width: 100%;
+	height: 100%;
+}
+
+
+.center_icon{
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 30vh;
+	margin-left: 41vw;
+	animation-name: slideupicon;
+	animation-duration: 2s;
+}
+
+#okl{
+	background-color: blue;
+}
+#ikl{
+	background-color: white;
+}
+
+
+#anim_skill1{
+	background-color: #007ab2;
+}
+#anim_skill2{
+	background-color: #002333;
+}
+
+
+
+#anim_proj1{
+	background-color: #fc4a1a;
+}
+#anim_proj2{
+	background-color: #4abdac;
+}
+
+
+#anim_conquest1{
+	background-color: #a239ca;
+}
+#anim_conquest2{
+	background-color: #4717f6;
+}
+
+
+#anim_cont1{
+	background-color: #813772;
+}
+#anim_cont2{
+	background-color: #b82601;
+}
+
+
+
+@media screen and (max-width: 960px){
+	
+.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 37vw;
+}
+}
+
+@media screen and (max-width: 800px){
+	
+.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 34.5vw;
+}
+}
+
+@media screen and (max-width: 760px){
+		
+.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 34vw;
+}
+}
+
+@media screen and (max-width: 600px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 30%;
+}
+}
+@media screen and (max-width: 500px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 26vw;
+}
+}
+@media screen and (max-width: 460px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 23vw;
+}
+}
+@media screen and (max-width: 400px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 20%;
+}
+}
+
+@media screen and (max-width: 390px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 19.5%;
+}
+}
+@media screen and (max-width: 380px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 18.7%;
+}
+}
+@media screen and (max-width: 370px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 18%;
+}
+}
+@media screen and (max-width: 360px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 17%;
+}
+}
+@media screen and (max-width: 350px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 16%;
+}
+}
+@media screen and (max-width: 340px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 15%;
+}
+}
+@media screen and (max-width: 330px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 14%;
+}
+}
+@media screen and (max-width: 320px){
+	.center_icon{
+	margin-bottom: 30vh;
+	margin-left: 12.5%;
+}
+}
+
+
+/*Animation Definition ################################
+#######################################################
+#######################################################*/
+
+
+@keyframes slideupicon {
+	0% {
+		transform: translateY(200%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+@-webkit-keyframes slideupicon {
+	0% {
+		transform: translateY(200%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+
+
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+
+
+@keyframes slideup {
+	0% {
+		transform: translateY(100%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideup {
+	0% {
+		-webkit-transform: translateY(100%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+
+
+
+
+/*Stars Animation*/
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:300vh;
+  display:block;
+}
+
+.stars {
+  background:transparent url(../img/stars.png) repeat top center;
+  z-index:20;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:10;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+/*############### Details CSS #####################################*/
+
+
+
+.stars{
+  background:#000 url('../img/stars.png') repeat top center;
+
+}
+
+
+.anim{
+	animation-name: slideDownl;
+	animation-duration: 1s;
+	animation-delay: 2s
+}
+
+
+.anim2{
+	animation-name: slideupl;
+	animation-duration: 1s;
+	animation-delay: 1s;
+}
+
+
+.anim_detail{
+	animation-name: slideupiconl;
+	animation-duration: 1s;
+}
+
+
+
+
+.detailing{
+	overflow-y: scroll;
+	z-index: 29;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 300vh
+	background: transparent;
+	width: 100%;
+}
+
+
+
+
+.detail_img{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 12vw;
+	border: 5px solid white;
+	margin-top: 20vh;
+  	box-shadow: 0px 0px 30px rgba(255,255,255,1);
+  	transition: all 0.5s ease-in-out;
+}
+
+.detail_img:hover{
+	transform: scale(1.1);
+  	animation: boxshadow;
+  	animation-duration: 8s;
+  	animation-iteration-count: infinite;
+}
+
+.info_detail h3{
+	color: white;
+	margin-top: 32vh;
+	font-family: kaushan;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-bottom: 0;
+	line-height: 5vh;
+}
+
+
+.info_detail p{
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 0;
+	line-height: 5px;
+}
+
+
+.info_detail p::before {
+	content: "👨🏽‍💻";
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	margin-right: 1vw;
+	font-size: 1.2em;
+	margin-left: 2vw;
+}
+
+
+.info_detail h6{
+	padding: 2vh;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	border-radius: 4px;
+	background-color: rgba(51,51,51,.5);
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	width: 35vw;
+	margin: 0;
+}
+
+
+
+.naive_scroll{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.updown{
+	animation-name: updo;
+	animation-delay: 4s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+
+
+.about_me{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2vh;
+	border-bottom: 2px solid white;
+	margin-left: 25vw;
+	margin-right: 25vw;
+	margin-bottom: 8vh;
+}
+
+
+#reco{
+	margin-bottom: 4vh;
+}
+
+.about_me h3{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 2.0em;
+
+}
+
+
+
+.about_content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 1.5em;
+	margin-bottom: 7vh;
+}
+
+
+.about_content p{
+	color: white;
+	font-size: 1em;
+	font-family: "Times New Roman", Times, serif;
+
+
+}
+
+
+
+.reco_content h3{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.8em;
+	color: white;
+	margin-left: 21.5vw;
+}
+
+.reco_content h3::after{
+	content: "(Founder and CEO of PNJ Hub Pvt. Ltd.)";
+	font-family: "Times New Roman", Times, serif;
+	font-size: .7em;
+	margin-left: 1vw;
+}
+
+.reco_content p{
+	font-size: 1.2em;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	margin-left: 25vw;
+}
+
+
+#about{
+	padding-top: 15vh;
+	margin-bottom: 25vh;
+}
+#row3{
+	margin-bottom: 38vh;
+}
+#row1{
+	margin-bottom: 8vh;
+}
+
+#row4{
+	margin-bottom: 4vh;
+}
+
+#row5{
+	margin-top: 5vh
+}
+
+#row2{
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+
+@font-face {
+	font-family: kaushan;
+	src: url(../fonts/kaushan.otf);
+} 
+
+.detailing{
+
+}
+
+.detail_img{
+
+}
+
+.detail_img:hover{
+
+}
+
+.info_detail h3{
+
+}
+
+
+.info_detail p{
+
+}
+
+
+.info_detail p::before {
+
+}
+
+
+.info_detail h6{
+
+}
+
+
+
+.naive_scroll{
+
+}
+
+
+.updown{
+
+}
+
+.about_me{
+
+}
+
+.about_me h3{
+
+}
+
+.about_content{
+
+}
+
+.about_content p{
+
+}
+
+.reco_content h3{
+
+}
+
+.reco_content h3::after{
+
+}
+
+.reco_content p{
+
+}
+
+.img1, .cente{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cente{
+	margin-top: 4vh;
+}
+
+.cente1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: .5vh;
+}
+
+@media screen and (max-width: 1200px){
+
+
+.info_detail h3{
+	margin-top: 25vh;
+}
+#row1{
+	margin-bottom: 12vh;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 1100px){
+
+}
+@media screen and (max-width: 1000px){
+	.detail_img{
+	}
+	#row1{
+		margin-bottom: 14vh;
+	}
+}
+@media screen and (max-width: 900px){
+	.detail_img{
+	}
+	.info_detail h6{
+		width: 50vw;
+	}
+	#reco h3{
+		font-size: 1.5em;
+	}
+	#reco p{
+		margin-left: 21.5vw;
+	}
+	#reco1{
+		margin-bottom: 2.5vh;
+	}
+
+}
+@media screen and (max-width: 800px){
+	.about_me{
+		margin-bottom: 3vh;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.detail_img{
+		width: 30vw;
+		height: 30vw;
+		border-radius: 15vw;
+		margin-top: 12vh;
+	}
+	.info_detail h3{
+		margin-top: 5vh;
+	}
+	.info_detail h6{
+		width: 60vw;
+	}
+	#row1{
+		margin-bottom: 5vh;
+	}
+	.cente{
+		margin-top: 1.5vh;
+	}
+	.about_me{
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+	.about_content p{
+		font-size: .8em;
+	}
+	#paras{
+		margin-left: 10vw;
+	}
+	#reco p{
+		margin-left: 10vw;
+	}
+}
+@media screen and (max-width: 700px){
+	.detail_img{
+		width: 32vw;
+		height: 32vw;
+		border-radius: 16vw;
+	}
+	.info_detail h6{
+		width: 65vw;
+	}
+}
+@media screen and (max-width: 620px){
+	.detail_img{
+	}
+	.info_detail h6{
+		width: 65vw;
+	}
+	#about{
+		margin-bottom: 28vh;
+	}
+}
+@media screen and (max-width: 600px){
+	.detail_img{
+		width: 36vw;
+		height: 36vw;
+		border-radius: 18vw;
+	}
+}
+
+@media screen and (max-width: 560px){
+	.detail_img{
+		width: 36vw;
+		height: 36vw;
+		border-radius: 18vw;
+	}
+	.info_detail h6{
+		width: 65vw;
+	}
+	#about{
+		margin-bottom: 30vh;
+	}
+}
+@media screen and (max-width: 450px){
+	.detail_img{
+		width: 50vw;
+		height: 50vw;
+		border-radius: 25vw;
+	}
+	.cente h3{
+		font-size: 2.2em;
+	}
+	.cente p{
+		font-size: 1.2em;
+	}
+	.cente h6{
+		font-size: .9em;
+		width: 75vw;
+	}
+
+	.about_content p{
+		font-size: .7em;
+	}
+}
+@media screen and (max-width: 400px){
+	.detail_img{
+		width: 50vw;
+		height: 50vw;
+		border-radius: 25vw;
+	}
+
+	.cente h3{
+		font-size: 1.8em;
+	}
+
+	.cente p{
+		font-size: 1em;
+	}
+	.cente h6{
+		font-size: .9em;
+		width: 90vw;
+	}
+	#about{
+		margin-bottom: 16.5vh;
+	}
+}
+@media screen and (max-width: 320px){
+
+}
+
+
+/*Animations #############################################3
+###########################################################
+###########################################################*/
+
+
+
+
+@keyframes updo {
+	0% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-50%);
+	}
+}
+
+
+@-webkit-keyframes updo {
+	0% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-50%);
+	}	
+}
+
+
+@keyframes boxshadow {
+	0% {
+		box-shadow: 0px 0px 30px rgba(255,255,255,1);
+	}
+	100% {
+		box-shadow: 0px 0px 40px rgba(255,255,255,1);
+	}		
+}
+
+@-webkit-keyframes boxshadow {
+	0% {
+		box-shadow: 0px 0px 0px rgba(255,255,255,1);
+	}
+	100% {
+		box-shadow: 0px 0px 40px rgba(255,255,255,1);
+	}	
+}
+
+
+
+@keyframes slideDownl {
+	0% {
+		transform: translateY(0%);
+	}			
+	100% {
+		transform: translateY(-100%);
+	}		
+}
+
+@-webkit-keyframes slideDownl {
+	0% {
+		-webkit-transform: translateY(0%);
+	}			
+	100% {
+		-webkit-transform: translateY(-100%);
+	}	
+}
+
+
+
+@keyframes slideupl {
+	0% {
+		transform: translateY(0%);
+	}			
+	100% {
+		transform: translateY(100%);
+	}		
+}
+
+@-webkit-keyframes slideupl {
+	0% {
+		-webkit-transform: translateY(0%);
+	}			
+	100% {
+		-webkit-transform: translateY(100%);
+	}	
+}
+
+
+
+
+
+@keyframes slideupiconl {
+	0% {
+		transform: translateY(0%);
+	}			
+	100% {
+		transform: translateY(200%);
+	}		
+}
+
+@-webkit-keyframes slideupiconl {
+	0% {
+		-webkit-transform: translateY(0%);
+	}			
+	100% {
+		-webkit-transform: translateY(200%);
+	}	
+}
