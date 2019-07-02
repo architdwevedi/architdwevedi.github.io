@@ -286,6 +286,8 @@
 	margin-left: 41vw;
 	animation-name: slideupicon;
 	animation-duration: 2s;
+  width: 250px;
+  height: 250px;
 }
 
 
@@ -329,102 +331,108 @@
 }
 
 
-
 @media screen and (max-width: 960px){
-	
+
 .center_icon{
 	margin-bottom: 30vh;
-	margin-left: 37vw;
+	margin-left: 40vw;
+	width: 200px;
+	height: 200px;
 }
 }
 
 @media screen and (max-width: 800px){
-	
+
 .center_icon{
 	margin-bottom: 30vh;
-	margin-left: 34.5vw;
+	margin-left: 42vw;
+	width: 150px;
+	height: 150px;
 }
 }
 
 @media screen and (max-width: 760px){
-		
+
 .center_icon{
 	margin-bottom: 30vh;
-	margin-left: 34vw;
+	margin-left: 42vw;
+
 }
 }
 
 @media screen and (max-width: 600px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 30%;
+	margin-bottom: 42vh;
+	margin-left: 42vw;
+	width: 100px;
+	height: 100px;
 }
 }
 @media screen and (max-width: 500px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 26vw;
+	/* margin-bottom: 3vh; */
+	margin-left: 42vw;
 }
 }
 @media screen and (max-width: 460px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 23vw;
+	/* margin-bottom: 30vh; */
+	margin-left: 40vw;
 }
 }
 @media screen and (max-width: 400px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 20%;
+	/* margin-bottom: 30vh; */
+	margin-left: 40vw;
 }
 }
 
 @media screen and (max-width: 390px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 19.5%;
+	/* margin-bottom: 30vh; */
+	margin-left: 38vw;
 }
 }
 @media screen and (max-width: 380px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 18.7%;
+	margin-left: 38vw;
+	/* margin-bottom: 30vh; */
 }
 }
 @media screen and (max-width: 370px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 18%;
+	/* margin-bottom: 30vh; */
 }
 }
 @media screen and (max-width: 360px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 17%;
+	/* margin-bottom: 30vh; */
+	/* margin-left: 17%; */
 }
 }
 @media screen and (max-width: 350px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 16%;
+	/* margin-bottom: 30vh; */
+	/* margin-left: 16%; */
 }
 }
 @media screen and (max-width: 340px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 15%;
+	/* margin-bottom: 30vh; */
+	/* margin-left: 15%; */
 }
 }
 @media screen and (max-width: 330px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 14%;
+	/* margin-bottom: 30vh; */
+	margin-left: 36vw;
+
 }
 }
 @media screen and (max-width: 320px){
 	.center_icon{
-	margin-bottom: 30vh;
-	margin-left: 12.5%;
+	/* margin-bottom: 30vh; */
+	/* margin-left: 12.5%; */
 }
 }
 
@@ -437,19 +445,19 @@
 @keyframes slideupicon {
 	0% {
 		transform: translateY(200%);
-	}			
+	}
 	100% {
 		transform: translateY(0%);
-	}	
+	}
 }
 
 @-webkit-keyframes slideupicon {
 	0% {
 		transform: translateY(200%);
-	}			
+	}
 	100% {
 		transform: translateY(0%);
-	}	
+	}
 }
 
 
@@ -458,19 +466,19 @@
 @keyframes slideDown {
 	0% {
 		transform: translateY(-100%);
-	}			
+	}
 	100% {
 		transform: translateY(0%);
-	}		
+	}
 }
 
 @-webkit-keyframes slideDown {
 	0% {
 		-webkit-transform: translateY(-100%);
-	}			
+	}
 	100% {
 		-webkit-transform: translateY(0%);
-	}	
+	}
 }
 
 
@@ -478,19 +486,19 @@
 @keyframes slideup {
 	0% {
 		transform: translateY(100%);
-	}			
+	}
 	100% {
 		transform: translateY(0%);
-	}		
+	}
 }
 
 @-webkit-keyframes slideup {
 	0% {
 		-webkit-transform: translateY(100%);
-	}			
+	}
 	100% {
 		-webkit-transform: translateY(0%);
-	}	
+	}
 }
 
 
@@ -555,42 +563,46 @@
 }
 
 
+
+
 .anim{
 	animation-name: slideDownl;
-	animation-duration: 1s;
-	animation-delay: 2s
+	animation-duration: .5s;
+	animation-delay: 1s
 }
 
 
 .anim2{
 	animation-name: slideupl;
-	animation-duration: 1s;
-	animation-delay: 1s;
+	animation-duration: .5s;
+	animation-delay: .5s;
 }
 
 
 .anim_detail{
 	animation-name: slideupiconl;
-	animation-duration: 1s;
+	animation-duration: .5s;
 }
+
+
 
 
 @keyframes slideDownl {
 	0% {
 		transform: translateY(0%);
-	}			
+	}
 	100% {
 		transform: translateY(-100%);
-	}		
+	}
 }
 
 @-webkit-keyframes slideDownl {
 	0% {
 		-webkit-transform: translateY(0%);
-	}			
+	}
 	100% {
 		-webkit-transform: translateY(-100%);
-	}	
+	}
 }
 
 
@@ -598,19 +610,19 @@
 @keyframes slideupl {
 	0% {
 		transform: translateY(0%);
-	}			
+	}
 	100% {
 		transform: translateY(100%);
-	}		
+	}
 }
 
 @-webkit-keyframes slideupl {
 	0% {
 		-webkit-transform: translateY(0%);
-	}			
+	}
 	100% {
 		-webkit-transform: translateY(100%);
-	}	
+	}
 }
 
 
@@ -620,19 +632,19 @@
 @keyframes slideupiconl {
 	0% {
 		transform: translateY(0%);
-	}			
+	}
 	100% {
 		transform: translateY(200%);
-	}		
+	}
 }
 
 @-webkit-keyframes slideupiconl {
 	0% {
 		-webkit-transform: translateY(0%);
-	}			
+	}
 	100% {
 		-webkit-transform: translateY(200%);
-	}	
+	}
 }
 
 .boxes{
@@ -783,13 +795,13 @@
 	}
 }
 @media screen and (max-width: 900px){
-	
+
 }
 @media screen and (max-width: 850px){
-	
+
 }
 @media screen and (max-width: 800px){
-	
+
 }
 @media screen and (max-width: 700px){
 	.boxes2{
@@ -825,16 +837,16 @@
 	}
 }
 @media screen and (max-width: 750px){
-	
+
 }
 @media screen and (max-width: 700px){
-	
+
 }
 @media screen and (max-width: 650px){
-	
+
 }
 @media screen and (max-width: 600px){
-	
+
 }
 @media screen and (max-width: 550px){
 	.arrow{
@@ -862,10 +874,10 @@
 	}
 }
 @media screen and (max-width: 500px){
-	
+
 }
 @media screen and (max-width: 450px){
-	
+
 }
 @media screen and (max-width: 400px){
 	.boxes, .boxes2{
@@ -920,7 +932,7 @@
 }
 }
 @media screen and (max-width: 320px){
-	
+
 }
 
 /*
@@ -928,46 +940,46 @@
 
 }
 @media screen and (max-width: 950px){
-	
+
 }
 @media screen and (max-width: 900px){
-	
+
 }
 @media screen and (max-width: 850px){
-	
+
 }
 @media screen and (max-width: 800px){
-	
+
 }
 @media screen and (max-width: 750px){
-	
+
 }
 @media screen and (max-width: 700px){
-	
+
 }
 @media screen and (max-width: 650px){
-	
+
 }
 @media screen and (max-width: 600px){
-	
+
 }
 @media screen and (max-width: 550px){
-	
+
 }
 @media screen and (max-width: 500px){
-	
+
 }
 @media screen and (max-width: 450px){
-	
+
 }
 @media screen and (max-width: 400px){
-	
+
 }
 @media screen and (max-width: 350px){
-	
+
 }
 @media screen and (max-width: 320px){
-	
+
 }*/
 
 
@@ -1018,4 +1030,3 @@
 		transform: translateY(20%);
 	}
 }
-
